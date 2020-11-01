@@ -91,10 +91,24 @@ ul {
     border-radius: 50%;
 }
 
-@media (max-width:400px) {
+@media screen and (max-width:500px) {
+    .div1 {
+        width: 80%;
+        flex-wrap: wrap;
+    }
     .div2 {
         flex-wrap: wrap;
     }
+    .card {
+        width: 60%;
+    }
 }
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+    .div2 {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 70%;
+    }
+}
